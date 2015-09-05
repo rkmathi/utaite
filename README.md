@@ -2,7 +2,7 @@
 
 ## Usage
 
-`access.log`:
+Prepare `access.log`:
 
 ```txt
 123.65.150.10 - - [23/Aug/2010:03:50:00 +0000] "POST /wordpress HTTP/1.1" 200 2 "http://www.example.com/wordpress3/wp-admin/post-new.php" "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.25 Safari/534.3"
@@ -16,7 +16,7 @@
 Run:
 
 ```shell
-$ cat access.log | bundle exec utaite
+$ cat access.log | utaite
 ```
 
 Result:
