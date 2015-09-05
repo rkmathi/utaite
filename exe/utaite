@@ -1,3 +1,6 @@
 #!/usr/bin/env ruby
 
-require "utaite"
+require 'utaite'
+
+Utaite::Utaite.run
+
